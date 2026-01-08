@@ -72,7 +72,7 @@ if model:
         st.subheader("Hasil Prediksi")
 
         if prediksi_idr < 0:
-            st.warning("⚠️ **Hasil Negatif:** Kombinasi spesifikasi ini terlalu aneh/rendah untuk model Linear Regression.")
+            st.warning("⚠️ **Hasil Negatif**")
             st.write(f"Nilai mentah: Rp {prediksi_idr:,.2f}")
         else:
             st.success(f"💰 **Rp {prediksi_idr:,.0f}**")
